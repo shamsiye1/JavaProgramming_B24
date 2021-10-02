@@ -12,6 +12,7 @@ public class Animal {
     double weight;
     double lifeSpan;
 
+
     // methods
 
     // no static means these are instance methods
@@ -22,7 +23,10 @@ public class Animal {
 
     public void sleeping(){
         System.out.println("This "+size+" animal is sleeping");
+    }
 
+    public static void sleeping2(){
+        System.out.println("This animal is sleeping");
     }
 
 
